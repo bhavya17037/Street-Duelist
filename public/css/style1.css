@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    font-family: "SSF4 ABUKET", "Open Sans";
+}
+
+body {
+    background-size: contain;
+    background: url(bg2.gif);
+    background-repeat: no-repeat;
+    background-color: beige;
+}
+
+.container {
+    position: absolute;
+/*    background-color: rgba(177, 217, 41, 0.5);*/
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 30px;
+    padding: 20px;
+    width: 20%;
+    margin: 200px 35% 100px 40%;
+}
+
+.container h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    letter-spacing: 15px;
+}
+
+.option {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    margin: 10px 10px 10px 0px;
+    background-color: rgba(180, 38, 38, 0.6);
+    width: 100%;
+    border-radius: 20px 20px 00px 0px;
+    border-width: 0;
+    border-style: groove;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+.option:hover {
+    cursor: pointer;
+    background-color: rgba(211, 38, 38, 1);
+    font-weight: bolder;
+}

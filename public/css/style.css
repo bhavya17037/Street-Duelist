@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    font-family: "Open Sans";
+}
+
+body {
+/*    background: url(images/bg.jpg);*/
+    background-color: beige;
+}
+
+.login {
+    width: 45%;
+    height: 250px;
+    float: left;
+    margin-left: 30px;
+    background-color: rgba(10, 10, 10, 0.1);
+    border-radius: 20px;
+}
+
+.login .username {
+    margin-left: 70px;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.login .username p {
+    display: inline;
+}
+
+.login .password {
+    margin-left: 70px;
+    padding: 10px 10px 40px 10px;
+}
+
+.login .password p {
+    display: inline;
+}
+
+.sub {
+    background-color: rgba(200, 1000, 20, 0.5);
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+}
+
+.sub :hover {
+    cursor: pointer;
+    background-color: rgba(200, 1000, 20, 0.8);
+}
+
+.register {
+    float: left;
+    margin-left: 50px;
+    width: 45%;
+    height: 300px;
+    background-color: rgba(10, 10, 10, 0.1);
+    border-radius: 20px;
+}
+
+.country {
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 50px;
+}
+
+.country p {
+    margin-left: 95px;
+    display: inline;
+}
+
+.country select {
+    width: 150px;
+}
+
+.register .username {
+    margin-left: 70px;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.register .password {
+    margin-left: 70px;
+    padding: 10px 10px 20px 10px;
+}
+
+.register .username p {
+    display: inline;
+}
+
+.register .password p {
+    display: inline;
+}
